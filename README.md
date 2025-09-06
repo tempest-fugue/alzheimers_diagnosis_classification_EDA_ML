@@ -9,7 +9,7 @@ The notebook walks through the following steps:
 
 1. **Initializations and Downloads**  
    - Import dependencies  
-   - Load dataset(s)  
+   - Load dataset
 
 2. **Preprocessing**  
    - Data cleaning and feature engineering  
