@@ -46,39 +46,39 @@ The notebook walks through the following steps:
 ## Requirements
 To reproduce the results, install the following dependencies:
 
-'''
+```bash
 pip install -r requirements.txt
-'''
+```
 Minimum recommended versions:
-Python 3.9+
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-matplotlib
-seaborn
-lightgbm
-xgboost
-catboost
+- Python 3.9+
+- pandas
+- numpy
+- scikit-learn
+- imbalanced-learn
+- matplotlib
+- seaborn
+- lightgbm
+- xgboost
+- catboost
 
-Usage:
+## Usage:
 Clone this repository:
 
-'''
+```bash
 git clone https://github.com/yourusername/alzheimers-diagnosis-classification.git
 cd alzheimers-diagnosis-classification
-'''
+```
 Install dependencies:
 
-'''
+```bash
 pip install -r requirements.txt
-'''
+```
 Open the notebook:
 
-'''
+```bash
 jupyter notebook notebooks/alzheimers_diagnosis_classification_eda_ml.ipynb
-'''
-Results
+```
+## Results
 Several tree-based ensemble methods (Random Forest, LightGBM, XGBoost, CatBoost) outperformed linear models.
 
 Hyperparameter tuning provided significant performance improvements.
@@ -88,19 +88,20 @@ Handling class imbalance (upsampling, downsampling, SMOTE) was essential to impr
 Detailed results, metrics, and plots are available in the notebook.
 
 Repository Structure
-'''.
+```bash
+.
 ├── notebooks/
 │   └── alzheimers_diagnosis_classification_eda_ml.ipynb
-├── data/                # (Optional) place dataset(s) here, not tracked in repo
+├── data/                
 ├── requirements.txt
 └── README.md
-'''
-Future Work
+```
+## Future Work
 Incorporate deep learning models (e.g., BERT for clinical notes or tabular transformers).
 
 Perform feature selection and domain-informed feature engineering.
 
 Explore explainability (SHAP, LIME) to interpret predictions.
 
-License
-This project is released under the Apache 2.0 License. See LICENSE for details.
+## License
+This project is released under the MIT License. See LICENSE for details.
