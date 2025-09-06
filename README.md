@@ -46,44 +46,38 @@ The notebook walks through the following steps:
 ## Requirements
 To reproduce the results, install the following dependencies:
 
-```
-pip install -r requirements.txt
-Minimum recommended versions:
-
-Python 3.9+
-
-pandas
-
-numpy
-
-scikit-learn
-
-imbalanced-learn
-
-matplotlib
-
-seaborn
-
-lightgbm
-
-xgboost
-
-catboost
 '''
-Usage
+pip install -r requirements.txt
+'''
+Minimum recommended versions:
+Python 3.9+
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+lightgbm
+xgboost
+catboost
+
+Usage:
 Clone this repository:
 
 '''
 git clone https://github.com/yourusername/alzheimers-diagnosis-classification.git
-cd alzheimers-diagnosis-classification'''
+cd alzheimers-diagnosis-classification
+'''
 Install dependencies:
 
 '''
-pip install -r requirements.txt'''
+pip install -r requirements.txt
+'''
 Open the notebook:
 
 '''
-jupyter notebook notebooks/alzheimers_diagnosis_classification_eda_ml.ipynb'''
+jupyter notebook notebooks/alzheimers_diagnosis_classification_eda_ml.ipynb
+'''
 Results
 Several tree-based ensemble methods (Random Forest, LightGBM, XGBoost, CatBoost) outperformed linear models.
 
