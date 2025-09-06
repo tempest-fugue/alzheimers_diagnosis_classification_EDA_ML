@@ -46,7 +46,7 @@ The notebook walks through the following steps:
 ## Requirements
 To reproduce the results, install the following dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 Minimum recommended versions:
 
@@ -69,24 +69,21 @@ lightgbm
 xgboost
 
 catboost
-
+'''
 Usage
 Clone this repository:
 
-bash
-Copy code
+'''
 git clone https://github.com/yourusername/alzheimers-diagnosis-classification.git
-cd alzheimers-diagnosis-classification
+cd alzheimers-diagnosis-classification'''
 Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
+'''
+pip install -r requirements.txt'''
 Open the notebook:
 
-bash
-Copy code
-jupyter notebook notebooks/alzheimers_diagnosis_classification_eda_ml.ipynb
+'''
+jupyter notebook notebooks/alzheimers_diagnosis_classification_eda_ml.ipynb'''
 Results
 Several tree-based ensemble methods (Random Forest, LightGBM, XGBoost, CatBoost) outperformed linear models.
 
@@ -97,14 +94,13 @@ Handling class imbalance (upsampling, downsampling, SMOTE) was essential to impr
 Detailed results, metrics, and plots are available in the notebook.
 
 Repository Structure
-bash
-Copy code
-.
+'''.
 ├── notebooks/
 │   └── alzheimers_diagnosis_classification_eda_ml.ipynb
 ├── data/                # (Optional) place dataset(s) here, not tracked in repo
 ├── requirements.txt
 └── README.md
+'''
 Future Work
 Incorporate deep learning models (e.g., BERT for clinical notes or tabular transformers).
 
